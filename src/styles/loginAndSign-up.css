@@ -1,0 +1,94 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #3CB371;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+form {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 50px;
+    width: 440px;
+    background-color: rgba(55, 128, 87, 1);
+    border: 1px solid rgba(60, 179, 113, 1);
+}
+
+label {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+footer div {
+    padding-left: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-container {
+    background-color: rgba(55, 128, 87, 1);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#options div {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    color: white;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#submitButtonDiv {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#submitButton {
+    background: rgba(60, 179, 113, 1);
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    height: 80px;
+    transition: .5s;
+}
+
+#submitButton:hover {
+    background-color: rgb(44, 170, 101);
+}
