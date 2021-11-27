@@ -10,10 +10,9 @@ body {
 }
 
 img {
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 50%;
+    height: 400px;
+    width: 400px;
+    border-radius: 252px;
 }
 
 a {
@@ -32,10 +31,11 @@ h2 {
     font-weight: 200;
 }
 
-#pig-photo {
+#logo {
+    width: 40%;
     display: flex;
     justify-content: center;
-    vertical-align: middle;
+    margin: 100px 100px 0 100px;
 }
 
 #loginAndAbout {
@@ -48,18 +48,14 @@ h2 {
     padding-right: 20px;
 } 
 
-#pig-photo {
-    width: 50%;
-}
-
 #main-container {
-    width: 50%;
-
+    width: 60%;
+    height: 100%;
 }
 
-#logo {
-    position: relative;
-    top: 30%;
+#header {
+    display: inline-block;
+    margin-top: 50px;
 }
 
 #register-button{
