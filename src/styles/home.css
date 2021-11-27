@@ -19,6 +19,11 @@ a {
     text-decoration: none;
     font-size: 20px;
     color: white;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(188, 255, 193);
 }
 
 h1 {

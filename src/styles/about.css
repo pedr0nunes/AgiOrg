@@ -39,6 +39,11 @@ footer div {
 a {
     text-decoration: none;
     color: white;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(188, 255, 193);
 }
 
 #main-container {
@@ -54,7 +59,7 @@ a {
 }
 
 .button{
-    background-image: linear-gradient(black, #3CB371);
+    background-color: black;
     color:white;
     border: none;
     border-radius: 5px;

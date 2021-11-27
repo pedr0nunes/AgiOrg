@@ -46,6 +46,11 @@ footer div {
 a {
     text-decoration: none;
     color: white;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(188, 255, 193);
 }
 
 #main-container {
@@ -80,7 +85,7 @@ a {
 }
 
 #submitButton {
-    background: rgba(60, 179, 113, 1);
+    background: black;
     color: white;
     font-size: 25px;
     border: none;
