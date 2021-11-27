@@ -9,7 +9,7 @@
    - Pedro Araújo Sousa
    - Pedro Nunes Santos
 
-####🚧  Em construção...  🚧
+🚧  Em construção...  🚧
 
 ## Diagrama entidade relacionamento:
   https://miro.com/app/board/o9J_luHyWR4=/
