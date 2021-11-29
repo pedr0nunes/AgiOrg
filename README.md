@@ -14,5 +14,7 @@
 ## Diagrama entidade relacionamento:
   https://miro.com/app/board/o9J_luHyWR4=/
 
+## Templates Figma
+  https://www.figma.com/file/N7sSympkx814PYJeesqv4J/Untitled?node-id=0%3A1
 
 
