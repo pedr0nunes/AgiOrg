@@ -1,0 +1,21 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class AppControler {
+
+	@GetMapping("")
+	public String viewHomePage() {
+		return "index";
+	}
+	
+	@GetMapping("/register")
+	public String showRegistrationForm(Model model) {
+	    model.addAttribute("user", new Usuario());
+	     
+	    return "signup_form";
+	}
+	
+}

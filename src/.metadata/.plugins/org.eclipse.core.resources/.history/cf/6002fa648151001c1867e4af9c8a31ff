@@ -1,0 +1,13 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class AppControler {
+
+	
+	@GetMapping("")
+	public String viewHomePage() {
+		return "index";
+	}
+	
+}

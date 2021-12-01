@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class AppControler {
+
+	
+	@GetMapping("")
+	public String viewHomePage() {
+		return "index";
+	}
+	
+}
