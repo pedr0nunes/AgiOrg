@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/icon.png">
+    <link rel="stylesheet" href="../styles/wallet.css">
+    <title>Carteira | AgiOrg</title>
+</head>
+<body>
+    <div id="register">
+        <form method="GET" action='#'>
+            <div id="main-container">
+                <select name="select">
+                    <option value="" selected disabled>Tipo de registro</option>
+                    <option value="renda" class="option">Renda</option>
+                    <option value="conta-a-pagar" class="option">Conta à pagar</option>
+                    <option value="pagamento-na-hora" class="option">Pagamento na hora</option>
+                </select>
+                <div>
+                    <label for="password">Valor:</label>
+                    <input type="email" id="email" name="email" class="field" placeholder="0,00" required>
+                </div>
+                <div>
+                    <label for="password">Categoria:</label>
+                    <input type="password" id="password" name="password" class="field" placeholder="ex.: Supermercado" required>
+                </div>
+                <div>
+                    <label for="password">Data:</label>
+                    <input type="password" id="password" name="password" class="field" placeholder="DD/MM/AAAA" required>
+                </div>
+                <div id="submitButtonDiv">
+                    <input type="submit" value="Registrar" id="submitButton">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id="balance">
+        <p>Saldo total:</p>
+        <p value="">R$0.00</p>
+    </div>
+    <footer>
+        <div>
+            <a href="about.html">Sobre</a>
+        </div>
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+        <div>
+            <a href="#">Contato</a>
+        </div>
+        <div>
+            <a href="#">Extrato</a>
+        </div>
+        <div>
+            <a href="#">Contas</a>
+        </div>
+    </footer>
+</body>
+</html>

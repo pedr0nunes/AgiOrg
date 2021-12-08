@@ -1,0 +1,146 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #3CB371;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+select {
+    height: 6vh;
+    width: 30vw;
+    text-align: center;
+    background-color: #2C2D2C;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+}
+
+input {
+    height: 6vh;
+    width: 30vw;
+    background-color: rgba(55, 128, 87, 1);
+    border: 1px solid rgba(60, 179, 113, 1);
+}
+
+footer {
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+}
+
+footer div {
+    padding-left: 6vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+a:hover {
+    color: rgb(188, 255, 193);
+}
+
+#register {
+    background-color: #378057;
+    border-radius: 30px;
+    width: 70vw;
+    height: 85vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 8vh;
+}
+
+#main-container select {
+    margin-bottom: 12vh;
+}
+
+#main-container div {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+}
+
+#balance {
+    background-color: black;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 15vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#balance p {
+    font-size: 1.2em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#submitButtonDiv {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+#submitButton {
+    background: black;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 20px;
+    height: 8vh;
+    transition: .5s;
+}
+
+#submitButton:hover {
+    background-color: rgb(18, 19, 18);
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+ }
+ 
+ :-moz-placeholder {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+ }
+ 
+ ::-moz-placeholder {
+    color: white;  
+    font-size: 1.5em;
+    text-align: center;
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+    font-size: 1.5em;
+    text-align: center;
+ }
