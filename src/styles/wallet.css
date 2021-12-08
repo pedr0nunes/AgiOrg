@@ -25,6 +25,8 @@ input {
     width: 30vw;
     background-color: rgba(55, 128, 87, 1);
     border: 1px solid rgba(60, 179, 113, 1);
+    color: white;
+    padding-left: 1vw;
 }
 
 footer {
@@ -95,7 +97,7 @@ a:hover {
 }
 
 #balance p {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
@@ -110,7 +112,7 @@ a:hover {
 #submitButton {
     background: black;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4em;
     border: none;
     border-radius: 20px;
     height: 8vh;
@@ -122,25 +124,21 @@ a:hover {
 }
 
 ::-webkit-input-placeholder {
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
+    color: rgb(199, 188, 188);
+    font-size: 1.2em;
  }
  
  :-moz-placeholder {
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
+    color: rgb(199, 188, 188);
+    font-size: 1.2em;
  }
  
  ::-moz-placeholder {
-    color: white;  
-    font-size: 1.5em;
-    text-align: center;
+    color: rgb(199, 188, 188);  
+    font-size: 1.2em;
  }
  
  :-ms-input-placeholder {  
-    color: white;  
-    font-size: 1.5em;
-    text-align: center;
+    color: rgb(199, 188, 188);  
+    font-size: 1.2em;
  }
