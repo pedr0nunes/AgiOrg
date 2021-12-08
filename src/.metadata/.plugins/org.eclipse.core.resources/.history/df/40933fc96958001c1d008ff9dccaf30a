@@ -1,0 +1,17 @@
+package com.example.demo.model.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+/**
+ *  @author fabio
+ *classe para representar as categorias de transacoes que podem existir
+ *as categorais estao em ..........
+ */
+
+@Entity
+@Table(name="categoria")
+public class Categoria {
+	
+
+}
