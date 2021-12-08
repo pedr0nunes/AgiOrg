@@ -1,0 +1,44 @@
+package com.example.demo.model.transactionCategories;
+
+public enum TipoDeTransacao {
+	ENTRADAS(1, "ENTRADA"),SAIDA(2,"SAIDA");
+	
+	//info de codigo(1 ou 2) e descricao(ENTRADA ou SAIDA)
+	private String descricaoTransacao;
+	private int codigoTransacao;
+	
+	//construtor
+	TipoDeTransacao(int codigo, String descricao) {
+		this.codigoTransacao=codigo;
+		this.descricaoTransacao=descricao;
+	}
+
+    public static TipoDeTransacao toEnum(int codigo) {
+        if(codigo == null) {
+            return null;
+        }
+        for (CategoryType x : CategoryType.values()) {
+            if(code.equals(x.getCode())) {
+                return x;
+            }
+        }
+        throw new IllegalArgumentException("Invalid id: " + code + " for enum CategoryType." );
+    }
+	
+	
+	//getters
+	public String getDescricaoTransacao() {
+		return descricaoTransacao;
+	}
+
+
+	public int getCodigoTransacao() {
+		return codigoTransacao;
+	}
+	
+
+	
+	
+	
+	
+}
