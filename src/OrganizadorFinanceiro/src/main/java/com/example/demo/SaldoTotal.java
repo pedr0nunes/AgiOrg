@@ -7,7 +7,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "saldoTotal")
 public class SaldoTotal {
-	@Column
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_Saldo;
 	@Column
     private int quantidadeMonetaria;

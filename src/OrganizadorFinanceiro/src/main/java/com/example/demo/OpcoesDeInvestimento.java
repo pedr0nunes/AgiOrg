@@ -9,7 +9,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "opcoesDeInvestimento")
 public class OpcoesDeInvestimento {
-	@Column
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_Opcao;
 	@Column
     private String tipo;
