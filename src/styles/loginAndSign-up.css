@@ -24,7 +24,7 @@ input{
 }
 
 label {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     padding-bottom: 5px;
 }
 
@@ -89,7 +89,7 @@ a:hover {
 #submitButton {
     background: black;
     color: white;
-    font-size: 2.5vw;
+    font-size: 2vw;
     border: none;
     border-radius: 20px;
     height: 5vw;

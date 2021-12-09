@@ -17,7 +17,7 @@ select {
     border: 1px solid black;
     border-radius: 5px;
     color: white;
-    font-size: 1em;
+    font-size: 1.2vw;
 }
 
 input {
@@ -70,11 +70,11 @@ a:hover {
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-    padding-top: 8vh;
+    padding-top: 5vh;
 }
 
 #main-container select {
-    margin-bottom: 12vh;
+    margin-bottom: 15vh;
 }
 
 #main-container div {
