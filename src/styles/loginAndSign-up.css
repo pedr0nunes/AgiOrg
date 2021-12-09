@@ -13,17 +13,18 @@ form {
     margin: 30px;
     display: flex;
     flex-direction: column;
+    min-height: 70vh;
 }
 
 input{
-    height: 50px;
-    width: 440px;
+    height: 4vw;
+    width: 30vw;
     background-color: rgba(55, 128, 87, 1);
     border: 1px solid rgba(60, 179, 113, 1);
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.8vw;
     padding-bottom: 5px;
 }
 
@@ -36,11 +37,11 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 50px;
+    height: 10%;
 }
 
 footer div {
-    padding-left: 75px;
+    padding-left: 6vw;
 }
 
 a {
@@ -56,7 +57,8 @@ a:hover {
 #main-container {
     background-color: rgba(55, 128, 87, 1);
     border-radius: 10px;
-    margin: 20px;
+    margin: 4vh 8vw;
+    height: 90%;
 }
 
 #options {
@@ -66,7 +68,7 @@ a:hover {
 }
 
 #options div {
-    padding-bottom: 10px;
+    padding-bottom: 2vh;
     display: flex;
     flex-direction: column;
 }
@@ -81,19 +83,19 @@ a:hover {
     display: flex;
     align-self: center;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 5vh;
 }
 
 #submitButton {
     background: black;
     color: white;
-    font-size: 25px;
+    font-size: 2.5vw;
     border: none;
     border-radius: 20px;
-    height: 80px;
+    height: 5vw;
     transition: .5s;
 }
 
 #submitButton:hover {
-    background-color: rgb(44, 170, 101);
+    background-color: rgb(12, 12, 12);
 }

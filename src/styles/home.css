@@ -10,14 +10,16 @@ body {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    height: 60vh;
+    width: 60vh;
+    min-height: 300px;
+    min-width: 300px;
     border-radius: 252px;
 }
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2em;
     color: white;
     transition: .5s;
 }
@@ -27,12 +29,12 @@ a:hover {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 200;
 }
 
@@ -40,22 +42,22 @@ h2 {
     width: 40%;
     display: flex;
     justify-content: center;
-    margin: 100px 100px 0 100px;
+    margin: 15vh 10vw 0 10vw;
 }
 
 #loginAndAbout {
     display: flex;
     justify-content: end;
-    padding-top: 20px;
+    padding-top: 2vh;
 }
 
 #loginAndAbout > div {
-    padding-right: 20px;
+    padding-right: 3vw;
 } 
 
 #main-container {
     width: 60%;
-    height: 100%;
+    height: 80vh;
 }
 
 #header {
@@ -67,8 +69,8 @@ h2 {
     background-color: black;
     color:white;
     border: none;
-    width: 350px;
-    height: 50px;
+    width: 25vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;

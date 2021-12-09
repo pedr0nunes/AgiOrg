@@ -10,14 +10,32 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.5vw;
     font-weight: 400;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 200;
-    padding-top: 50px;
+    padding-top: 4vh;
+}
+
+button {
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    width: 14vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: rgb(12, 12, 12);
 }
 
 footer {
@@ -33,7 +51,7 @@ footer {
 }
 
 footer div {
-    padding-left: 75px;
+    padding-left: 6vw;
 }
 
 a {
@@ -47,31 +65,14 @@ a:hover {
 }
 
 #main-container {
-    padding-top: 80px;
+    padding-top: 10vh;
     padding-left: 80px;
 }
 
 #buttons-container {
-    width: 40%;
+    width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.button{
-    background-color: black;
-    color:white;
-    border: none;
-    border-radius: 5px;
-    width: 140px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    transition: .5s;
-}
-
-.button:hover {
-    background-color: rgb(12, 12, 12)
-}
