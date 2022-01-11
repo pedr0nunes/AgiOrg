@@ -9,7 +9,7 @@
    - Pedro Araújo Sousa
    - Pedro Nunes Santos
 
-🚧  Em construção...  🚧
+🚧  Projeto entregue e concluído ✔️ 🚧
 
 ## Diagrama entidade relacionamento:
   https://miro.com/app/board/o9J_luHyWR4=/
